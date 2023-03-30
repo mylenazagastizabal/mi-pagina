@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: lightgrey;
+}
+img{
+    width: 950px;
+}
+#slider{
+    width: 950px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+#slider ul{
+    list-style: none;
+    width: 2850px;
+    display: flex;
+    animation: slide 10s infinite alternate;
+}
+@keyframes slide{
+0% {margin-left: 0px;}
+10% {margin-left: 0px;}
+
+15% {margin-left: -1000px;}
+40% {margin-left: -1000px;}
+
+45% {margin-left: -2000px;}
+70% {margin-left: -2000px;}
+
+75% {margin-left: -3000px;}
+100% {margin-left: -3000px;}
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: lavender;
+}
+img{
+    width: 950px;
+}
+#slider{
+    width: 950px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+#menu-h{
+    max-width: 950px;
+    min-height: 50px;
+    background: black;
+    margin: 0 auto;
+}
+#menu-h ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+#menu-h a{
+    color: white;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background: black;
+    font-size: 18px;
+}
+#menu-h a:hover{
+    background: #2c3e2c50;
+}
+#contenido{
+    width: 950px;
+    min-height: 500px;
+    margin: auto;
+    border: black 1px solid;
+}
+footer{
+    width: 950px;
+    min-height: 40px;
+    background: black;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    margin: auto;
+}
+
